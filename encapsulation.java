@@ -1,12 +1,13 @@
 package day_3;
 
 import java.util.Scanner;
-
+//this class is an exampleof encapsulation
 class bank{
     Scanner sc=new Scanner(System.in);
-
+     // cannot be access outside of the class
     private double bal=50000;
     private String pwd="Ankur";
+    //function for deposit
     public void deposit(){
         System.out.println("Enter your password..");
         String a=sc.next();
@@ -27,6 +28,7 @@ class bank{
             System.out.println("wrong password!!!!");
         }
     }
+    //function for withdraw
     public void withdraw(){
         System.out.println("Enter your password..");
         String a=sc.next();
@@ -48,6 +50,7 @@ class bank{
         }
         
     }
+    // function for viewing balance amount
     public void balance(){
         System.out.println("Enter your password..");
         String a=sc.next();
