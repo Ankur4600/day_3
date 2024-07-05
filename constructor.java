@@ -65,7 +65,7 @@ public class constructor {
         A ref=new A();//object for class A
         //we don't need to call constructor becouse after creating object it can be automatically call
         ref.show();
-        //object for different constructor o classB
+        //object for different constructor of classB
         B ref_2= new B(20,45);
         B ref_3= new B(07,"Ankur Shrivatav");
         // object for class c
