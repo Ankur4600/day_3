@@ -12,7 +12,7 @@ public class instance_static {
     public static void main(String[] args) {
         /*if we run this program without creating object only static block 
         is call and to call instance block we have to create object*/
-        //object to call instance block
+        //object to call instance block.
         instance_static obj=new instance_static();
     }
 }
